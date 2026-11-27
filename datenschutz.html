@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Datenschutz – Christkindlmarkt</title>
+<!-- Eigenstaendige Seite fuer GitHub Pages (tools/site.sh kopiert sie nach dist/site/).
+     Absichtlich ohne Google Fonts und ohne externe Dateien.
+     Ausgefuellt am 27.11.2026 (Angaben von Phillip). -->
+<style>
+:root{--night:#1c2350;--gold:#f7b733;--snow:#fffaf2;--ink:#2a1d14;--mute:#6d5e4f;--red:#d62839}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(180deg,#1c2350,#3a4a92) fixed;font-family:ui-rounded,"SF Pro Rounded","Nunito",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);line-height:1.5}
+main{max-width:720px;margin:0 auto;padding:16px}
+section{background:var(--snow);border-radius:22px;padding:18px 20px;margin:0 0 16px;box-shadow:0 5px 0 #c9b9a3}
+h1{color:#fff;font-size:28px;margin:12px 4px 14px}
+h2{margin:0 0 8px;font-size:22px}
+h3{margin:18px 0 4px;font-size:17px}
+p,li{font-size:16px}
+.kind p,.kind li{font-size:19px}
+.kind li{margin-bottom:6px}
+ul{padding-left:22px}
+.platz{background:#fff2a8;border:2px dashed #c98a12;border-radius:6px;padding:0 4px;font-weight:700}
+.klein{font-size:14px;color:var(--mute)}
+a{color:#2348b8}
+table{border-collapse:collapse;width:100%;font-size:15px}
+td,th{text-align:left;vertical-align:top;border-top:1px solid #e6dccd;padding:6px 6px 6px 0}
+code{background:#efe5d6;border-radius:5px;padding:0 4px;font-size:14px}
+</style>
+</head>
+<body>
+<main>
+<h1>🎄 Datenschutz</h1>
+
+<section class="kind">
+<h2>Für Kinder</h2>
+<ul>
+<li>🎮 Das Spiel funktioniert <b>ohne</b> Bestenliste. Die Bestenliste ist ausgeschaltet, bis Mama oder Papa sie einschalten.</li>
+<li>🦌 In der Bestenliste heißt du wie ein Fantasie-Tier, z.&nbsp;B. „Flinkes Rentier“, oder mit einem Spitznamen. <b>Bitte keinen echten Nachnamen!</b></li>
+<li>🏆 Gespeichert wird nur: dein Name in der Liste, dein Bild, deine Sterne und an welchem Tag du gewonnen hast.</li>
+<li>📮 Keine E-Mail, keine Telefonnummer, kein Passwort, kein Foto.</li>
+<li>🗑️ Mit „Meine Daten löschen“ ist alles weg.</li>
+</ul>
+</section>
+
+<section>
+<h2>Für Eltern</h2>
+
+<h3>Verantwortlich</h3>
+<p>Karl-Phillip Purrer-Peternell<br>
+E-Mail: purrer@gmail.com</p>
+<p class="klein">Ein privates Spiel für Familie und Freunde, ohne Werbung und ohne Einnahmen.</p>
+
+<h3>Was ist die Bestenliste?</h3>
+<p>Eine freiwillige Rangliste: Nach einem gewonnenen Level schickt das Spiel das Ergebnis an einen kleinen Server.
+Die Bestenliste ist <b>standardmäßig aus</b> und lässt sich nur nach einer kleinen Rechenaufgabe für Erwachsene einschalten.
+Ohne Bestenliste verlässt kein Spielstand das Gerät.</p>
+
+<h3>Welche Daten?</h3>
+<table>
+<tr><th>Daten</th><th>Wozu</th></tr>
+<tr><td>Anzeigename: entweder ein Fantasiename (als Nummern gespeichert) oder ein selbst getippter Name (max. 16 Zeichen, automatisch auf Schimpfwörter geprüft); Bild-Nummer</td><td>Anzeige in der Liste</td></tr>
+<tr><td>Ergebnisse: Level, Siegtag, Herzen, verkaufte Bäume, Sterne, Zeitpunkt</td><td>Ranglisten (je Level, gesamt, Woche, Advent, Familie)</td></tr>
+<tr><td>Zufälliger Geräte-Schlüssel und Spieler-Code – auf dem Server nur als Hash</td><td>Wiedererkennen ohne Konto; Weiterspielen auf neuem Gerät</td></tr>
+<tr><td>Familien-Code (Bild + 4 Ziffern)</td><td>gemeinsame Liste für Familie/Freunde</td></tr>
+<tr><td>Meldungen anderer Spieler zu einem selbst getippten Namen</td><td>Moderation (nach mehreren Meldungen wird wieder der Fantasiename angezeigt, bis wir den Namen geprüft haben)</td></tr>
+</table>
+<p>Nicht gespeichert werden: E-Mail, Passwort, echte Namen-Felder, Standort, IP-Adressen. Gegen Missbrauch zählt der Server
+Anfragen kurzzeitig pro Spieler und pro <b>Tages-Hash</b> der IP-Adresse; diese Zähler werden nach 24 Stunden gelöscht.
+Worker-Protokolle sind ausgeschaltet.</p>
+
+<h3>Rechtsgrundlage</h3>
+<p>Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Bei Kindern unter 14 Jahren geben die Eltern diese Einwilligung (§ 4 Abs. 4 DSG) –
+dafür ist die Rechenaufgabe vor dem Mitmachen da. Die Einwilligung kann jederzeit mit „Meine Daten löschen“ widerrufen werden.</p>
+
+<h3>Speicher im Gerät</h3>
+<p>Das Spiel speichert Spielstände und – nur bei der Bestenliste – den Geräte-Schlüssel im lokalen Speicher des Browsers
+(<code>localStorage</code>, Einträge mit <code>kinder-hs-…</code>). Das ist für den gewünschten Dienst nötig (§ 165 Abs. 3 TKG 2021);
+es gibt keine Cookies, kein Tracking und keine Werbung.</p>
+
+<h3>Wer verarbeitet die Daten?</h3>
+<ul>
+<li><b>Cloudflare, Inc.</b> betreibt den Bestenlisten-Server (Cloudflare Workers, Datenbank D1, Standort-Hinweis Westeuropa) als Auftragsverarbeiter
+(Datenverarbeitungsvertrag in den Cloudflare-Bedingungen; USA-Übermittlung nach dem EU-US Data Privacy Framework).</li>
+<li><b>GitHub, Inc.</b> stellt die Webseite bereit (GitHub Pages); GitHub verarbeitet dabei technisch die IP-Adresse.</li>
+<li>Die Schrift „Fredoka“ im Spiel wird von <b>Google Fonts</b> geladen; dabei erhält Google die IP-Adresse.</li>
+</ul>
+
+<h3>Wie lange?</h3>
+<p>Bis zum Löschen über „Meine Daten löschen“, automatisch nach <b>12 Monaten ohne Spiel</b>. Wochen- und Advent-Listen beginnen
+jeweils neu; ältere Ergebnisse werden mit dem Spieler gelöscht.</p>
+
+<h3>Ihre Rechte</h3>
+<p>Auskunft, Berichtigung, Löschung, Einschränkung, Widerruf der Einwilligung – am einfachsten im Spiel (Profil → „Daten löschen“)
+oder per E-Mail an die oben genannte Adresse. Beschwerden: Österreichische Datenschutzbehörde, <a href="https://www.dsb.gv.at/" rel="noopener">dsb.gv.at</a>.</p>
+<p class="klein">Stand: 27. November 2026</p>
+</section>
+<p style="text-align:center"><a href="./" style="color:#fff;font-weight:700">← zurück zum Spiel</a></p>
+</main>
+</body>
+</html>
