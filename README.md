@@ -11,3 +11,9 @@ verkaufen – von der Pötschen über Vöcklabruck, Wels, den Karlsplatz und Sch
 
 Diese Seite enthält nur das fertige Spiel (eine HTML-Datei). Verwendet: [three.js](https://threejs.org) (MIT),
 3D-Modelle aus dem [Kenney Holiday Kit](https://kenney.nl) (CC0), Schrift [Fredoka](https://fonts.google.com/specimen/Fredoka) (OFL).
+
+**Musik:** eigene Arrangements gemeinfreier Weihnachtslieder (Ordner `musik/`).
+Klavier: „Salamander Grand Piano V3“ von Alexander Holm, lizenziert unter
+[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/), in eigenen Aufnahmen verwendet und bearbeitet.
+Orchester-Samples: VS Chamber Orchestra 2 Community Edition und Versilian Community Sample Library von
+Versilian Studios (Sam Gossner, Simon Dalzell), CC0.
